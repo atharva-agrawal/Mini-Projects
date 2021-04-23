@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Age Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../css/ageCalculator.css">
+</head>
+<script type="text/javascript" src="../js/ageCalculator.js"></script>
+<body onload=hide()>
+	<div id="container"></div>
+		<h1>Age Calculator</h1>
+		<p>Enter your birth Year</p>
+			<input type="date" id="birthYear" placeholder="Birth Year">
+		<p>Enter current Year</p>
+			<input type="date" id="currentYear" placeholder="Current Year">
+		<button type="button" id="submit" onclick=calculateAge()>Calculate Age</button>
+		<div id="currentAge">
+			<span id="age">0</span>
+			<small id="years">Year Young!</small>
+		</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+	font-family: Times New Roman;
+	background-color: #F9E79F;
+}
+
+h1 {
+	background: #F1C40F;
+	color: white;
+	width: 400px;
+	height: 10px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 3%;
+	font-size: 20px;
+	font-weight: normal;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: center;
+}
+
+p{
+	padding-left: 50px;
+}
+
+#birthYear{
+	padding: 5px 5px 8px 8px;
+	font-size: 15px;
+	width: 60%;
+	color: red;
+}
+
+#currentYear{
+	padding: 5px 5px 8px 8px;
+	font-size: 15px;
+	width: 60%;
+	color: red;
+}
+
+button{
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 30px auto;
+	background: #7D6608 ;
+	border-radius: 6px;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+}
+#currentAge{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	display: block;
+}
